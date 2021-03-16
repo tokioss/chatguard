@@ -52,7 +52,7 @@ if(usersMap.has(message.author.id)) {
 let u = await usersMap.get(message.author.id)
 await usersMap.set(message.author.id, { mesaj: u.mesaj+1 })
 let u = await usersMap.get(message.author.id)
-if(LIMIT >= Number(x.mesaj)) {
+if(LIMIT =< Number(x.mesaj)) {
 let messages = await message.channel.messages.fetch();
 await message.channel.bulkDelete(messages.filter(msg => msg.author.id === message.author.id).array().slice(0, Number(x.mesaj)))
 message.channel.send(new MessageEmbed().setColor(color).setDescription(`Spam yapamazsın!`).setFooter(client.user.username, client.user.avatarURL()))
