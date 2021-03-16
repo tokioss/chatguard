@@ -199,3 +199,5 @@ neww.channel.send(new MessageEmbed().setColor(color).setDescription(`Editleyerek
   })
   })
   })
+
+client.login(config.token)
