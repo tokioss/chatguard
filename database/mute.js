@@ -7,3 +7,5 @@ const schema = new mongoose.Schema({
     başlangıç: Date,
     sebep: String
 })
+
+module.exports = mongoose.model('Mute', schema)
