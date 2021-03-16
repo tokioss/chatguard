@@ -130,7 +130,7 @@ if(!neww.guild) return
 if(neww.author.id === neww.guild.owner.id) return
 if(config.whilelist.includes(message.author.id)) return
 if(neww.member.permissions.has("ADMINISTRATOR")) return;
-if(neww.mentiosn.users.size >= 0) {
+if(neww.mentions.users.size >= 0) {
 await neww.delete()
 neww.channel.send(new MessageEmbed().setColor(color).setDescription(`Editleyerek gereksiz fazla etiket atma nedeniyle **30 dakika** boyunca susturuldun!`).setFooter(client.user.username, client.user.avatarURL()))
 if(neww.guild.roles.cache.has(config.muterole)) message.member.roles.add(config.muterole)
