@@ -1,0 +1,13 @@
+{
+  "token": "DISCORD_BOT_TOKEN",
+  "prefix": "PREFIX",
+  "url": "MONGOOSE_URL",
+  "whilelist": ["717411894897672212","",""],
+  "muterole": "MUTE_ROLE_ID",
+  "capskarakter": "70", //Caps için mesajın 100 de kaçı caps olmak zorunda Mesela: 70
+  "caps": true,  //CAPS true/false
+  "reklam": true, //REKLAM true/false
+  "spam": true, //SPAM true/false
+  "küfür": true, //KÜFÜR true/false
+  "etiket": true, //ETIKET true/false
+}

@@ -1,0 +1,1 @@
+Discord Chat Guard Bot. Tarih: **16.03.2021**
